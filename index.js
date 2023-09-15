@@ -1,4 +1,5 @@
-var randomVariable =  Math.floor(Math.random()*6) + 1;
+document.querySelector(".btn").addEventListener("click",function(){
+    var randomVariable =  Math.floor(Math.random()*6) + 1;
 var randomVariable1 =  Math.floor(Math.random()*6) + 1;
 var randomimg = "dice" + randomVariable + ".png";
 var randomimg1 = "dice" + randomVariable1 + ".png";
@@ -18,3 +19,4 @@ else{
 function myFunction(){
     location.reload();
 }
+})
